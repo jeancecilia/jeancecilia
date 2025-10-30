@@ -1,0 +1,25 @@
+name: Refresh Profile & Pages
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: '7 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate docs exist
+        run: |
+          test -f README.md
+          test -f docs/index.html
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: auto-refresh"
+      - name: Push
+        run: git push

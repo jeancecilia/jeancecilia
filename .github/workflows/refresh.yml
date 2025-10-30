@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Update README timestamp (auto-patch)
+        shell: bash
+        run: |
+          TS="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          sed -i.bak -E "s/<!--updated: .*-->/<!--updated: ${TS}-->/" README.md || true
+          rm -f README.md.bak
       - name: Validate docs exist
         run: |
           test -f README.md
@@ -20,6 +26,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: auto-refresh"
+          git diff --cached --quiet || git commit -m "chore: auto-refresh timestamp"
       - name: Push
         run: git push

@@ -1,7 +1,7 @@
 # Hi, I’m Jean Cecilia 👋
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jeancecilia/jeancecilia/main/assets/hero.svg" alt="Hero" width="820">
+  <img src="https://raw.githubusercontent.com/jeancecilia/jeancecilia/main/assets/hero.svg" alt="Hero" width="920">
 </p>
 
 **Full-stack mobile/web developer** — Flutter • Supabase • Clean Architecture  
@@ -33,9 +33,14 @@ flowchart LR
 
 ---
 
-### 📊 GitHub Snapshot
-![Stats](https://github-readme-stats.vercel.app/api?username=jeancecilia&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeancecilia&layout=compact)
+### 📊 Real GitHub Stats
+<!-- The following SVGs query GitHub in real-time and reflect actual stats for @jeancecilia -->
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeancecilia&show_icons=true&include_all_commits=true&count_private=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=jeancecilia&hide_border=true)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=jeancecilia&no-frame=true&row=1&column=6)
 
 ---
 
@@ -55,5 +60,7 @@ flowchart LR
 - Fiverr: https://www.fiverr.com/ (replace)
 - LinkedIn: https://www.linkedin.com/in/ (replace)
 - Email: you@example.com (replace)
+
+<!--updated: 1970-01-01T00:00:00Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

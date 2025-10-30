@@ -20,6 +20,9 @@
     img.hero { max-width:100%; height:auto; border-radius:12px; }
     code { background:#f6f8fa; padding:2px 6px; border-radius:6px; }
     .pill { display:inline-block; border:1px solid #eaeaea; border-radius:999px; padding:6px 10px; margin:4px 6px 0 0; font-size:13px;}
+    .kpi { display:grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap:12px; }
+    .kpi .card { text-align:center; }
+    .kpi .value { font-size:28px; font-weight:700; }
   </style>
 </head>
 <body>
@@ -30,18 +33,22 @@
     <h1>Jean Cecilia — Flutter & Supabase Developer (Bangkok)</h1>
     <p>Full-stack apps in Flutter (iOS/Android/Web) with Supabase backends, Clean Architecture & Riverpod. Bilingual (EN/TH), product-minded and fast-iterating.</p>
 
-    <h2>Services</h2>
-    <div class="grid">
-      <div class="card"><h3>Mobile & Web Apps</h3><p>Flutter apps with Riverpod state, Firebase/Supabase auth, and PDF exports.</p></div>
-      <div class="card"><h3>Supabase Backends</h3><p>Postgres schemas, policies, functions, storage. Pragmatic CI/CD on GitHub Actions.</p></div>
-      <div class="card"><h3>Business Apps</h3><p>Law-firm CRM, invoicing systems, edutravel, IoT dashboards; EN/TH UIs.</p></div>
+    <h2>Live GitHub Stats</h2>
+    <div class="kpi">
+      <div class="card"><div>Total Commits</div><div class="value"><!--stat:commits-->…<!--/stat:commits--></div></div>
+      <div class="card"><div>Total PRs</div><div class="value"><!--stat:prs-->…<!--/stat:prs--></div></div>
+      <div class="card"><div>Total Issues</div><div class="value"><!--stat:issues-->…<!--/stat:issues--></div></div>
+      <div class="card"><div>Public Repos</div><div class="value"><!--stat:repos-->…<!--/stat:repos--></div></div>
     </div>
+
+    <p><img alt="Streak" src="https://streak-stats.demolab.com?user=jeancecilia&hide_border=true"></p>
+    <p><img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=jeancecilia&theme=flat&no-frame=true&row=1&column=7"></p>
 
     <h2>Projects</h2>
     <div class="grid">
-      <div class="card"><h3>Yim Noi</h3><p>Video speed-dating app (Supabase, multi-language).</p></div>
-      <div class="card"><h3>IoT</h3><p>Smart Plant Watering / Air Quality Monitor for Thai households.</p></div>
-      <div class="card"><h3>Law-firm CRM</h3><p>Thai/English CRM with document templates & PDF exports.</p></div>
+      <a class="card" href="https://github.com/jeancecilia/boring_pw_manager"><h3>boring_pw_manager</h3><p>Simple password manager (public).</p></a>
+      <a class="card" href="https://github.com/jeancecilia/DataTale"><h3>DataTale</h3><p>Public repo.</p></a>
+      <a class="card" href="https://github.com/jeancecilia/Thaiinsurehub"><h3>Thaiinsurehub</h3><p>Public repo.</p></a>
     </div>
 
     <h2>Tech</h2>
@@ -58,7 +65,7 @@
     <h2>Contact</h2>
     <p>Portfolio: <a href="https://kaizenkode.de">kaizenkode.de</a> &nbsp;|&nbsp; Email: <a href="mailto:you@example.com">you@example.com</a></p>
 
-    <div class="footer small">© <span id="y"></span> Jean Cecilia. Built with ❤️ on GitHub Pages.</div>
+    <div class="footer small">© <span id="y"></span> Jean Cecilia. Built with ❤️ on GitHub Pages. <!--updated: 1970-01-01T00:00:00Z--></div>
   </main>
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>

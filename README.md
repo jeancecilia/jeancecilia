@@ -9,6 +9,47 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 
 ---
 
+### 📈 Real GitHub Stats (Live)
+<div align="center">
+
+<!-- Stats Card with true numbers injected by GitHub Actions -->
+
+<table>
+<tr>
+<td>
+
+**Total Commits**\<br>
+<b><!--stat:commits-->…<!--/stat:commits--></b>
+
+</td><td>
+
+**Total PRs**\<br>
+<b><!--stat:prs-->…<!--/stat:prs--></b>
+
+</td><td>
+
+**Total Issues**\<br>
+<b><!--stat:issues-->…<!--/stat:issues--></b>
+
+</td><td>
+
+**Public Repos**\<br>
+<b><!--stat:repos-->…<!--/stat:repos--></b>
+
+</td>
+</tr>
+</table>
+
+![GitHub Streak](https://streak-stats.demolab.com?user=jeancecilia&hide_border=true)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=jeancecilia&theme=flat&no-frame=true&row=1&column=7)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeancecilia&show_icons=true&include_all_commits=true&count_private=true)
+
+</div>
+
+---
+
 ### 🔧 What I build
 - Mobile apps & web apps in **Flutter** (iOS / Android / Web)
 - Backends on **Supabase** (PostgreSQL, RLS, functions), Firebase
@@ -30,17 +71,6 @@ flowchart LR
   Supabase --> Auth[Auth + RLS]
   FlutterApp --> AzureAI[Azure Speech + GPT]
 ```
-
----
-
-### 📊 Real GitHub Stats
-<!-- The following SVGs query GitHub in real-time and reflect actual stats for @jeancecilia -->
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeancecilia&show_icons=true&include_all_commits=true&count_private=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=jeancecilia&hide_border=true)
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=jeancecilia&no-frame=true&row=1&column=6)
 
 ---
 

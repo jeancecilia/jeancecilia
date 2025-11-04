@@ -19,22 +19,22 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->null<!--/stat:commits--></b>
+<b><!--stat:commits-->788<!--/stat:commits--></b>
 
 </td><td>
 
 **Total PRs**\<br>
-<b><!--stat:prs-->null<!--/stat:prs--></b>
+<b><!--stat:prs-->0<!--/stat:prs--></b>
 
 </td><td>
 
 **Total Issues**\<br>
-<b><!--stat:issues-->null<!--/stat:issues--></b>
+<b><!--stat:issues-->0<!--/stat:issues--></b>
 
 </td><td>
 
 **Public Repos**\<br>
-<b><!--stat:repos-->null<!--/stat:repos--></b>
+<b><!--stat:repos-->13<!--/stat:repos--></b>
 
 </td>
 </tr>
@@ -91,6 +91,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/ (replace)
 - Email: you@example.com (replace)
 
-<!--updated: 2025-11-04T10:57:00Z-->
+<!--updated: 2025-11-04T10:57:13Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

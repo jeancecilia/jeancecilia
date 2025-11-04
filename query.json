@@ -1,0 +1,4 @@
+{
+  "query": "query($login:String!){ user(login:$login){ contributionsCollection{ totalCommitContributions restrictedContributionsCount totalPullRequestContributions totalIssueContributions } pullRequests{ totalCount } issues{ totalCount } repositories(privacy: PUBLIC){ totalCount } } }",
+  "variables": {"login": "$GH_LOGIN"}
+}

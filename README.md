@@ -19,7 +19,7 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->801<!--/stat:commits--></b>
+<b><!--stat:commits-->815<!--/stat:commits--></b>
 
 </td><td>
 
@@ -91,6 +91,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/ (replace)
 - Email: you@example.com (replace)
 
-<!--updated: 2025-11-07T03:47:54Z-->
+<!--updated: 2025-11-07T04:35:30Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

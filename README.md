@@ -91,6 +91,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/ (replace)
 - Email: you@example.com (replace)
 
-<!--updated: 2025-11-11T04:38:12Z-->
+<!--updated: 2025-11-12T03:49:20Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

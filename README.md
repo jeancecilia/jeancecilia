@@ -1,16 +1,6 @@
 # Hi, I’m Jean Cecilia 👋
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Hero" width="920">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Comments-0-1f6feb?style=for-the-badge" alt="Aggregated comments badge (issue + PR reviews)" />
-  <img src="https://img.shields.io/badge/PRs-6-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
-  <img src="https://img.shields.io/badge/Contributions-0-2ea043?style=for-the-badge" alt="Overall contributions badge" />
-</p>
-
-**Full-stack mobile/web developer** — Flutter • Supabase • Clean Architecture  
+**Full-stack mobile/web developer** — Flutter • Supabase • Clean Architecture
 Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 
 ---
@@ -66,32 +56,6 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 </td>
 </tr>
 </table>
-
-### 🏆 Highlights without broken images
-<div align="center">
-
-<table>
-<tr>
-<td>
-
-**Open Source**\<br>
-17 public repositories maintained
-
-</td><td>
-
-**Community**\<br>
-Mentor & reviewer for early-stage founders
-
-</td><td>
-
-**Automation**\<br>
-Ships via CI/CD + GitHub Actions
-
-</td>
-</tr>
-</table>
-
-</div>
 
 </div>
 

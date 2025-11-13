@@ -97,10 +97,8 @@ flowchart LR
 ---
 
 ### 🌐 Links
-- Portfolio: https://kaizenkode.de
-- Fiverr: https://www.fiverr.com/ (replace)
-- LinkedIn: https://www.linkedin.com/in/ (replace)
-- Email: you@example.com (replace)
+- LinkedIn: https://www.linkedin.com/in/hire-it-project-manager
+- Email: info@appdevbangkok.com 
 
 <!--updated: 2025-11-13T08:05:57Z-->
 

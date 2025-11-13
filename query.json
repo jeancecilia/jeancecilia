@@ -1,4 +1,4 @@
 {
-  "query": "query($login:String!){ user(login:$login){ contributionsCollection{ totalCommitContributions restrictedContributionsCount totalPullRequestContributions totalIssueContributions } pullRequests{ totalCount } issues{ totalCount } repositories(privacy: PUBLIC){ totalCount } } }",
+  "query": "query($login:String!){ user(login:$login){ contributionsCollection{ totalCommitContributions restrictedContributionsCount totalPullRequestContributions totalIssueContributions contributionCalendar{ totalContributions } } pullRequests{ totalCount } issues{ totalCount } repositories(privacy: PUBLIC){ totalCount } issueComments{ totalCount } pullRequestReviewComments{ totalCount } } }",
   "variables": {"login": "$GH_LOGIN"}
 }

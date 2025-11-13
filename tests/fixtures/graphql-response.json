@@ -5,7 +5,10 @@
         "totalCommitContributions": 120,
         "restrictedContributionsCount": 30,
         "totalPullRequestContributions": 2,
-        "totalIssueContributions": 1
+        "totalIssueContributions": 1,
+        "contributionCalendar": {
+          "totalContributions": 250
+        }
       },
       "pullRequests": {
         "totalCount": 14
@@ -15,6 +18,12 @@
       },
       "repositories": {
         "totalCount": 17
+      },
+      "issueComments": {
+        "totalCount": 23
+      },
+      "pullRequestReviewComments": {
+        "totalCount": 11
       }
     }
   }

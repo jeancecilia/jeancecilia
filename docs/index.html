@@ -11,6 +11,8 @@
     .wrap { max-width: var(--w); margin: 48px auto; padding: 0 var(--mx); }
     h1,h2,h3 { margin: 24px 0 12px; }
     .hero { text-align:center; margin: 8px 0 24px; }
+    .badges { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:24px; }
+    .badges img { height:32px; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 16px; }
     .card { border:1px solid #eaeaea; border-radius:12px; padding:16px; }
     .small { color:#666; font-size:14px; }
@@ -30,6 +32,11 @@
     <div class="hero">
       <img class="hero" src="/assets/hero.svg" alt="Jean Cecilia — Flutter & Supabase" />
     </div>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/Comments-<!--stat:comments-->0<!--/stat:comments-->-1f6feb?style=for-the-badge" alt="Aggregated comments badge" />
+      <img src="https://img.shields.io/badge/PRs-<!--stat:prs-->3<!--/stat:prs-->-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
+      <img src="https://img.shields.io/badge/Contributions-<!--stat:overall-->0<!--/stat:overall-->-2ea043?style=for-the-badge" alt="Overall contributions badge" />
+    </div>
     <h1>Jean Cecilia — Flutter & Supabase Developer (Bangkok)</h1>
     <p>Full-stack apps in Flutter (iOS/Android/Web) with Supabase backends, Clean Architecture & Riverpod. Bilingual (EN/TH), product-minded and fast-iterating.</p>
 
@@ -42,7 +49,7 @@
     </div>
 
     <section class="grid">
-      <div class="card"><div class="small">Total contributions (12 mo)</div><div class="value">1,058</div></div>
+      <div class="card"><div class="small">Total contributions (12 mo)</div><div class="value"><!--stat:overall-->1,058<!--/stat:overall--></div></div>
       <div class="card"><div class="small">Current streak</div><div class="value">1 day</div></div>
       <div class="card"><div class="small">Longest streak</div><div class="value">17 days</div></div>
     </section>

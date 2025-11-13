@@ -5,21 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jeancecilia?tab=followers">
-    <img src="https://img.shields.io/github/followers/jeancecilia?label=Followers&logo=github&style=for-the-badge" alt="GitHub followers"/>
-  </a>
-  <a href="https://github.com/jeancecilia?tab=repositories">
-    <img src="https://img.shields.io/github/stars/jeancecilia?affiliations=OWNER&label=Repo%20Stars&logo=github&style=for-the-badge" alt="GitHub stars"/>
-  </a>
-  <a href="https://github.com/jeancecilia">
-    <img src="https://komarev.com/ghpvc/?username=jeancecilia&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
-  </a>
-  <a href="https://flutter.dev">
-    <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter badge"/>
-  </a>
-  <a href="https://supabase.com">
-    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase badge"/>
-  </a>
+  <img src="https://img.shields.io/badge/Comments-<!--stat:comments-->0<!--/stat:comments-->-1f6feb?style=for-the-badge" alt="Aggregated comments badge (issue + PR reviews)" />
+  <img src="https://img.shields.io/badge/PRs-<!--stat:prs-->3<!--/stat:prs-->-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
+  <img src="https://img.shields.io/badge/Contributions-<!--stat:overall-->0<!--/stat:overall-->-2ea043?style=for-the-badge" alt="Overall contributions badge" />
 </p>
 
 **Full-stack mobile/web developer** — Flutter • Supabase • Clean Architecture  
@@ -63,7 +51,7 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Contributions (last 12 months)**\<br>
-<b>1,058</b>
+<b><!--stat:overall-->1,058<!--/stat:overall--></b>
 
 </td><td>
 

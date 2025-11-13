@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Comments-<!--stat:comments-->0<!--/stat:comments-->-1f6feb?style=for-the-badge" alt="Aggregated comments badge (issue + PR reviews)" />
-  <img src="https://img.shields.io/badge/PRs-<!--stat:prs-->3<!--/stat:prs-->-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
+  <img src="https://img.shields.io/badge/PRs-<!--stat:prs-->6<!--/stat:prs-->-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
   <img src="https://img.shields.io/badge/Contributions-<!--stat:overall-->0<!--/stat:overall-->-2ea043?style=for-the-badge" alt="Overall contributions badge" />
 </p>
 
@@ -25,12 +25,12 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->859<!--/stat:commits--></b>
+<b><!--stat:commits-->865<!--/stat:commits--></b>
 
 </td><td>
 
 **Total PRs**\<br>
-<b><!--stat:prs-->3<!--/stat:prs--></b>
+<b><!--stat:prs-->6<!--/stat:prs--></b>
 
 </td><td>
 
@@ -138,6 +138,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/ (replace)
 - Email: you@example.com (replace)
 
-<!--updated: 2025-11-13T05:46:56Z-->
+<!--updated: 2025-11-13T06:04:03Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

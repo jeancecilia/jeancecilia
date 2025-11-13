@@ -1,13 +1,13 @@
 # Hi, I’m Jean Cecilia 👋
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jeancecilia/jeancecilia/main/assets/hero.svg" alt="Hero" width="920">
+  <img src="assets/hero.svg" alt="Hero" width="920">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Comments-<!--stat:comments-->0<!--/stat:comments-->-1f6feb?style=for-the-badge" alt="Aggregated comments badge (issue + PR reviews)" />
-  <img src="https://img.shields.io/badge/PRs-<!--stat:prs-->6<!--/stat:prs-->-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
-  <img src="https://img.shields.io/badge/Contributions-<!--stat:overall-->0<!--/stat:overall-->-2ea043?style=for-the-badge" alt="Overall contributions badge" />
+  <img src="https://img.shields.io/badge/Comments-0-1f6feb?style=for-the-badge" alt="Aggregated comments badge (issue + PR reviews)" />
+  <img src="https://img.shields.io/badge/PRs-6-6f42c1?style=for-the-badge" alt="Aggregated pull requests badge" />
+  <img src="https://img.shields.io/badge/Contributions-0-2ea043?style=for-the-badge" alt="Overall contributions badge" />
 </p>
 
 **Full-stack mobile/web developer** — Flutter • Supabase • Clean Architecture  

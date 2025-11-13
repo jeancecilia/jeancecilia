@@ -15,12 +15,12 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->867<!--/stat:commits--></b>
+<b><!--stat:commits-->870<!--/stat:commits--></b>
 
 </td><td>
 
 **Total PRs**\<br>
-<b><!--stat:prs-->7<!--/stat:prs--></b>
+<b><!--stat:prs-->8<!--/stat:prs--></b>
 
 </td><td>
 
@@ -100,6 +100,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/hire-it-project-manager
 - Email: info@appdevbangkok.com 
 
-<!--updated: 2025-11-13T08:05:57Z-->
+<!--updated: 2025-11-13T08:49:40Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

@@ -40,11 +40,52 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 </tr>
 </table>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=jeancecilia&hide_border=true)
+<table>
+<tr>
+<td>
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=jeancecilia&theme=flat&no-frame=true&row=1&column=7)
+**Total Contributions (last 12 months)**\<br>
+<b>1,058</b>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jeancecilia&show_icons=true&include_all_commits=true&count_private=true)
+</td><td>
+
+**Current Streak**\<br>
+<b>1 day</b>
+
+</td><td>
+
+**Longest Streak**\<br>
+<b>17 days</b>
+
+</td>
+</tr>
+</table>
+
+### 🏆 Highlights without broken images
+<div align="center">
+
+<table>
+<tr>
+<td>
+
+**Open Source**\<br>
+17 public repositories maintained
+
+</td><td>
+
+**Community**\<br>
+Mentor & reviewer for early-stage founders
+
+</td><td>
+
+**Automation**\<br>
+Ships via CI/CD + GitHub Actions
+
+</td>
+</tr>
+</table>
+
+</div>
 
 </div>
 

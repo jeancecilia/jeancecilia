@@ -30,8 +30,8 @@ jobs:
             exit 1
           fi
           COMMITS=$(echo "$RESP" | jq -r '((.data.user.contributionsCollection.totalCommitContributions // 0) + (.data.user.contributionsCollection.restrictedContributionsCount // 0))')
-          PRS=$(echo "$RESP" | jq -r '(.data.user.contributionsCollection.totalPullRequestContributions // 0)')
-          ISSUES=$(echo "$RESP" | jq -r '(.data.user.contributionsCollection.totalIssueContributions // 0)')
+          PRS=$(echo "$RESP" | jq -r '(.data.user.pullRequests.totalCount // 0)')
+          ISSUES=$(echo "$RESP" | jq -r '(.data.user.issues.totalCount // 0)')
           REPOS=$(echo "$RESP" | jq -r '(.data.user.repositories.totalCount // 0)')
           echo "commits=$COMMITS" >> $GITHUB_OUTPUT
           echo "prs=$PRS" >> $GITHUB_OUTPUT

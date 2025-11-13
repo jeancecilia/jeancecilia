@@ -19,22 +19,22 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->857<!--/stat:commits--></b>
+<b><!--stat:commits-->150<!--/stat:commits--></b>
 
 </td><td>
 
 **Total PRs**\<br>
-<b><!--stat:prs-->2<!--/stat:prs--></b>
+<b><!--stat:prs-->14<!--/stat:prs--></b>
 
 </td><td>
 
 **Total Issues**\<br>
-<b><!--stat:issues-->0<!--/stat:issues--></b>
+<b><!--stat:issues-->6<!--/stat:issues--></b>
 
 </td><td>
 
 **Public Repos**\<br>
-<b><!--stat:repos-->15<!--/stat:repos--></b>
+<b><!--stat:repos-->17<!--/stat:repos--></b>
 
 </td>
 </tr>

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "user": {
+      "contributionsCollection": {
+        "totalCommitContributions": 120,
+        "restrictedContributionsCount": 30,
+        "totalPullRequestContributions": 2,
+        "totalIssueContributions": 1
+      },
+      "pullRequests": {
+        "totalCount": 14
+      },
+      "issues": {
+        "totalCount": 6
+      },
+      "repositories": {
+        "totalCount": 17
+      }
+    }
+  }
+}

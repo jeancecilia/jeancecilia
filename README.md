@@ -4,6 +4,24 @@
   <img src="https://raw.githubusercontent.com/jeancecilia/jeancecilia/main/assets/hero.svg" alt="Hero" width="920">
 </p>
 
+<p align="center">
+  <a href="https://github.com/jeancecilia?tab=followers">
+    <img src="https://img.shields.io/github/followers/jeancecilia?label=Followers&logo=github&style=for-the-badge" alt="GitHub followers"/>
+  </a>
+  <a href="https://github.com/jeancecilia?tab=repositories">
+    <img src="https://img.shields.io/github/stars/jeancecilia?affiliations=OWNER&label=Repo%20Stars&logo=github&style=for-the-badge" alt="GitHub stars"/>
+  </a>
+  <a href="https://github.com/jeancecilia">
+    <img src="https://komarev.com/ghpvc/?username=jeancecilia&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
+  </a>
+  <a href="https://flutter.dev">
+    <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter badge"/>
+  </a>
+  <a href="https://supabase.com">
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase badge"/>
+  </a>
+</p>
+
 **Full-stack mobile/web developer** — Flutter • Supabase • Clean Architecture  
 Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 

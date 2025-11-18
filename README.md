@@ -15,12 +15,12 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->920<!--/stat:commits--></b>
+<b><!--stat:commits-->935<!--/stat:commits--></b>
 
 </td><td>
 
 **Total PRs**\<br>
-<b><!--stat:prs-->25<!--/stat:prs--></b>
+<b><!--stat:prs-->11<!--/stat:prs--></b>
 
 </td><td>
 
@@ -30,7 +30,7 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 </td><td>
 
 **Public Repos**\<br>
-<b><!--stat:repos-->16<!--/stat:repos--></b>
+<b><!--stat:repos-->15<!--/stat:repos--></b>
 
 </td>
 </tr>
@@ -100,6 +100,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/hire-it-project-manager
 - Email: info@appdevbangkok.com 
 
-<!--updated: 2025-11-18T03:49:19Z-->
+<!--updated: 2025-11-18T04:37:06Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

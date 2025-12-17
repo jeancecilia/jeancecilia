@@ -100,6 +100,6 @@ flowchart LR
 - LinkedIn: https://www.linkedin.com/in/hire-it-project-manager
 - Email: info@appdevbangkok.com 
 
-<!--updated: 2025-12-16T04:48:57Z-->
+<!--updated: 2025-12-17T03:58:31Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

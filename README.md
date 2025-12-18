@@ -99,6 +99,9 @@ flowchart LR
 ### 🌐 Links
 - LinkedIn: https://www.linkedin.com/in/hire-it-project-manager
 - Email: info@appdevbangkok.com 
+- Representing: https://devstackph.com/
+- Representing: https://devstackph.com/
+- Representing: https://appdevbangkok.com/
 
 <!--updated: 2025-12-17T04:46:08Z-->
 

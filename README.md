@@ -30,7 +30,7 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 </td><td>
 
 **Public Repos**\<br>
-<b><!--stat:repos-->23<!--/stat:repos--></b>
+<b><!--stat:repos-->24<!--/stat:repos--></b>
 
 </td>
 </tr>
@@ -103,6 +103,6 @@ flowchart LR
 - Representing: https://devstackph.com/
 - Representing: https://appdevbangkok.com/
 
-<!--updated: 2026-02-02T05:06:01Z-->
+<!--updated: 2026-02-02T05:41:50Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

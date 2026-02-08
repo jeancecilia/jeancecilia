@@ -103,6 +103,6 @@ flowchart LR
 - Representing: https://devstackph.com/
 - Representing: https://appdevbangkok.com/
 
-<!--updated: 2026-02-08T05:08:52Z-->
+<!--updated: 2026-02-08T05:40:53Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

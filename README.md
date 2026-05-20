@@ -15,7 +15,7 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <td>
 
 **Total Commits**\<br>
-<b><!--stat:commits-->1169<!--/stat:commits--></b>
+<b><!--stat:commits-->1171<!--/stat:commits--></b>
 
 </td><td>
 
@@ -103,6 +103,6 @@ flowchart LR
 - Representing: https://devstackph.com/
 - Representing: https://appdevbangkok.com/
 
-<!--updated: 2026-05-20T06:54:35Z-->
+<!--updated: 2026-05-20T07:55:20Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀

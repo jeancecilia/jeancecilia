@@ -9,6 +9,8 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       GH_LOGIN: jeancecilia
     steps:
@@ -18,9 +20,9 @@ jobs:
         id: fetch
         shell: bash
         run: |
-          QSTR='query($login:String!){ user(login:$login){ contributionsCollection{ totalCommitContributions restrictedContributionsCount totalPullRequestContributions totalIssueContributions } pullRequests{ totalCount } issues{ totalCount } repositories(privacy: PUBLIC){ totalCount } } }'
+          QSTR='query($login:String!){ user(login:$login){ contributionsCollection{ totalCommitContributions restrictedContributionsCount totalPullRequestContributions totalIssueContributions contributionCalendar{ totalContributions } } pullRequests{ totalCount } issues{ totalCount } repositories(privacy: PUBLIC){ totalCount } } }'
           DATA=$(jq -n --arg login "${GH_LOGIN}" --arg q "$QSTR" '{query: $q, variables: {login: $login}}')
-          RESP=$(curl -s -H "Authorization: bearer ${{ secrets.GITHUB_TOKEN }}" -H "Content-Type: application/json" -d "$DATA" https://api.github.com/graphql)
+          RESP=$(curl -s -H "Authorization: bearer ${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}" -H "Content-Type: application/json" -d "$DATA" https://api.github.com/graphql)
           echo "API Response:"
           echo "$RESP" | head -c 4000
           # Fail fast on GraphQL errors
@@ -33,10 +35,12 @@ jobs:
           PRS=$(echo "$RESP" | jq -r '(.data.user.pullRequests.totalCount // 0)')
           ISSUES=$(echo "$RESP" | jq -r '(.data.user.issues.totalCount // 0)')
           REPOS=$(echo "$RESP" | jq -r '(.data.user.repositories.totalCount // 0)')
+          OVERALL=$(echo "$RESP" | jq -r '(.data.user.contributionsCollection.contributionCalendar.totalContributions // 0)')
           echo "commits=$COMMITS" >> $GITHUB_OUTPUT
           echo "prs=$PRS" >> $GITHUB_OUTPUT
           echo "issues=$ISSUES" >> $GITHUB_OUTPUT
           echo "repos=$REPOS" >> $GITHUB_OUTPUT
+          echo "overall=$OVERALL" >> $GITHUB_OUTPUT
 
       - name: Inject numbers into README and Pages
         shell: bash
@@ -45,12 +49,14 @@ jobs:
           PRS='${{ steps.fetch.outputs.prs }}'
           ISSUES='${{ steps.fetch.outputs.issues }}'
           REPOS='${{ steps.fetch.outputs.repos }}'
+          OVERALL='${{ steps.fetch.outputs.overall }}'
           TS="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           # README markers
           sed -i.bak -E "s/(<!--stat:commits-->).*(<!--\/stat:commits-->)/\1${COMMITS}\2/" README.md || true
           sed -i.bak -E "s/(<!--stat:prs-->).*(<!--\/stat:prs-->)/\1${PRS}\2/" README.md || true
           sed -i.bak -E "s/(<!--stat:issues-->).*(<!--\/stat:issues-->)/\1${ISSUES}\2/" README.md || true
           sed -i.bak -E "s/(<!--stat:repos-->).*(<!--\/stat:repos-->)/\1${REPOS}\2/" README.md || true
+          sed -i.bak -E "s/(<!--stat:overall-->).*(<!--\/stat:overall-->)/\1${OVERALL}\2/" README.md || true
           sed -i.bak -E "s/<!--updated: .*-->/<!--updated: ${TS}-->/" README.md || true
           rm -f README.md.bak
           # docs markers
@@ -58,6 +64,7 @@ jobs:
           sed -i.bak -E "s/(<!--stat:prs-->).*(<!--\/stat:prs-->)/\1${PRS}\2/" docs/index.html || true
           sed -i.bak -E "s/(<!--stat:issues-->).*(<!--\/stat:issues-->)/\1${ISSUES}\2/" docs/index.html || true
           sed -i.bak -E "s/(<!--stat:repos-->).*(<!--\/stat:repos-->)/\1${REPOS}\2/" docs/index.html || true
+          sed -i.bak -E "s/(<!--stat:overall-->).*(<!--\/stat:overall-->)/\1${OVERALL}\2/" docs/index.html || true
           sed -i.bak -E "s/<!--updated: .*-->/<!--updated: ${TS}-->/" docs/index.html || true
           rm -f docs/index.html.bak
 

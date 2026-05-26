@@ -14,22 +14,22 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <tr>
 <td>
 
-**Total Commits**\<br>
+<strong>Total Commits</strong><br>
 <b><!--stat:commits-->1151<!--/stat:commits--></b>
 
 </td><td>
 
-**Total PRs**\<br>
+<strong>Total PRs</strong><br>
 <b><!--stat:prs-->15<!--/stat:prs--></b>
 
 </td><td>
 
-**Total Issues**\<br>
+<strong>Total Issues</strong><br>
 <b><!--stat:issues-->0<!--/stat:issues--></b>
 
 </td><td>
 
-**Public Repos**\<br>
+<strong>Public Repos</strong><br>
 <b><!--stat:repos-->24<!--/stat:repos--></b>
 
 </td>
@@ -40,17 +40,17 @@ Bangkok-based 🇹🇭 • Entrepreneur • Legal/Business tech
 <tr>
 <td>
 
-**Total Contributions (last 12 months)**\<br>
+<strong>Total Contributions (last 12 months)</strong><br>
 <b><!--stat:overall-->1,058<!--/stat:overall--></b>
 
 </td><td>
 
-**Current Streak**\<br>
+<strong>Current Streak</strong><br>
 <b>1 day</b>
 
 </td><td>
 
-**Longest Streak**\<br>
+<strong>Longest Streak</strong><br>
 <b>17 days</b>
 
 </td>

@@ -1,7 +1,7 @@
 # Technical IT Project Manager & Product Leader 👋
 
 **Agile Delivery • Full-Stack Technical Literacy • Flutter & Supabase Systems**  
-Bangkok-based 🇹🇭 • Entrepreneur • Specializing in Legal, Business & IoT Systems
+Germany Based • Entrepreneur • Specializing in Legal, Business & IoT Systems
 
 I bridge the gap between high-level business strategy, cross-functional stakeholders, and high-performance engineering teams. As a Technical IT Project Manager with a solid hands-on background in full-stack mobile and web engineering, I bring rare technical literacy to agile project coordination—ensuring products are shipped fast, architectures are clean, and legal/business requirements are met seamlessly.
 

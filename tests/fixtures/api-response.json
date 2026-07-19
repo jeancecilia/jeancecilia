@@ -1,0 +1,33 @@
+{
+  "graphql": {
+    "data": {
+      "user": {
+        "repositories": {
+          "totalCount": 17
+        },
+        "contributionsCollection": {
+          "contributionCalendar": {
+            "totalContributions": 250,
+            "weeks": [
+              {
+                "contributionDays": [
+                  {"date": "2025-01-01", "contributionCount": 1},
+                  {"date": "2025-01-02", "contributionCount": 1},
+                  {"date": "2025-01-03", "contributionCount": 0},
+                  {"date": "2025-01-04", "contributionCount": 2},
+                  {"date": "2025-01-05", "contributionCount": 3},
+                  {"date": "2025-01-06", "contributionCount": 0}
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "searches": {
+    "commits": 120,
+    "prs": 14,
+    "issues": 6
+  }
+}

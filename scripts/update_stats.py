@@ -30,8 +30,11 @@ STAT_KEYS = (
 
 PROFILE_QUERY = """
 query($login: String!) {
+  viewer { login }
   user(login: $login) {
-    repositories(privacy: PUBLIC, ownerAffiliations: OWNER) { totalCount }
+    repositories(ownerAffiliations: OWNER) { totalCount }
+    pullRequests { totalCount }
+    issues { totalCount }
     contributionsCollection {
       contributionCalendar {
         totalContributions
@@ -70,23 +73,20 @@ def fetch_live_data(login: str, token: str) -> dict[str, Any]:
     if graphql.get("errors"):
         raise RuntimeError(f"GraphQL errors: {json.dumps(graphql['errors'])}")
 
-    searches: dict[str, int] = {}
-    search_queries = {
-        "commits": f"author:{login} is:public",
-        "prs": f"author:{login} is:pr is:public",
-        "issues": f"author:{login} is:issue is:public",
-    }
-    endpoints = {"commits": "commits", "prs": "issues", "issues": "issues"}
-    for key, query in search_queries.items():
-        result = api_request(
-            f"{REST_URL}/search/{endpoints[key]}?q={quote(query)}&per_page=1",
-            token,
+    viewer = graphql.get("data", {}).get("viewer", {}).get("login", "")
+    if viewer.casefold() != login.casefold():
+        raise RuntimeError(
+            f"PROFILE_STATS_TOKEN belongs to '{viewer}', expected '{login}'"
         )
-        if result.get("incomplete_results"):
-            raise RuntimeError(f"GitHub returned incomplete {key} search results")
-        searches[key] = int(result["total_count"])
 
-    return {"graphql": graphql, "searches": searches}
+    commit_search = api_request(
+        f"{REST_URL}/search/commits?q={quote(f'author:{login}')}&per_page=1",
+        token,
+    )
+    if commit_search.get("incomplete_results"):
+        raise RuntimeError("GitHub returned incomplete commit search results")
+
+    return {"graphql": graphql, "searches": {"commits": int(commit_search["total_count"])}}
 
 
 def calculate_streaks(days: list[dict[str, Any]]) -> tuple[int, int]:
@@ -129,8 +129,8 @@ def build_stats(api_data: dict[str, Any]) -> dict[str, str]:
 
     return {
         "commits": str(int(searches["commits"])),
-        "prs": str(int(searches["prs"])),
-        "issues": str(int(searches["issues"])),
+        "prs": str(int(user["pullRequests"]["totalCount"])),
+        "issues": str(int(user["issues"]["totalCount"])),
         "repos": str(int(user["repositories"]["totalCount"])),
         "overall": str(int(calendar["totalContributions"])),
         "current_streak": f"{current} {'day' if current == 1 else 'days'}",

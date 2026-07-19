@@ -1,9 +1,18 @@
 {
   "graphql": {
     "data": {
+      "viewer": {
+        "login": "jeancecilia"
+      },
       "user": {
         "repositories": {
           "totalCount": 17
+        },
+        "pullRequests": {
+          "totalCount": 14
+        },
+        "issues": {
+          "totalCount": 6
         },
         "contributionsCollection": {
           "contributionCalendar": {
@@ -26,8 +35,6 @@
     }
   },
   "searches": {
-    "commits": 120,
-    "prs": 14,
-    "issues": 6
+    "commits": 120
   }
 }

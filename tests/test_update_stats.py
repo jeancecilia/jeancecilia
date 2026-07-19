@@ -17,7 +17,7 @@ class UpdateStatsTests(unittest.TestCase):
         fixture_path = ROOT / "tests" / "fixtures" / "api-response.json"
         cls.fixture = json.loads(fixture_path.read_text(encoding="utf-8"))
 
-    def test_builds_public_metrics_and_dynamic_streaks(self):
+    def test_builds_complete_metrics_and_dynamic_streaks(self):
         stats = build_stats(self.fixture)
         self.assertEqual(
             stats,

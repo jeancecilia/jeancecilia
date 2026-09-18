@@ -17,12 +17,12 @@ I bridge the gap between high-level business strategy, cross-functional stakehol
 <td>
 
 <strong>Total Commits</strong><br>
-<b><!--stat:commits-->4115<!--/stat:commits--></b>
+<b><!--stat:commits-->4116<!--/stat:commits--></b>
 
 </td><td>
 
 <strong>Total PRs</strong><br>
-<b><!--stat:prs-->338<!--/stat:prs--></b>
+<b><!--stat:prs-->339<!--/stat:prs--></b>
 
 </td><td>
 
@@ -43,7 +43,7 @@ I bridge the gap between high-level business strategy, cross-functional stakehol
 <td>
 
 <strong>Total Contributions (last 12 months)</strong><br>
-<b><!--stat:overall-->4334<!--/stat:overall--></b>
+<b><!--stat:overall-->4336<!--/stat:overall--></b>
 
 </td><td>
 
@@ -120,6 +120,6 @@ flowchart LR
 - Representing: https://devstackph.com/
 - Representing: https://appdevbangkok.com/
 
-<!--updated: 2026-09-18T11:14:30Z-->
+<!--updated: 2026-09-18T15:00:09Z-->
 
 > “Ship fast, iterate faster.” — my working style 🚀
